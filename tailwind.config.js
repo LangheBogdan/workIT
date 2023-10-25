@@ -16,6 +16,9 @@ module.exports = {
       borderRadius: {
         "bottom-arch": " 0 0 100% 50%/0 0 30px 30px;",
       },
+      boxShadow: {
+        custom: "0 4px 6px -1px #584D62",
+      },
     },
   },
   plugins: [],
