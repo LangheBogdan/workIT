@@ -13,6 +13,9 @@ module.exports = {
         manrope: ["Manrope", "sans-serif"],
         fraunces: ["Fraunces", "serif"],
       },
+      borderRadius: {
+        "bottom-arch": " 0 0 100% 50%/0 0 30px 30px;",
+      },
     },
   },
   plugins: [],
