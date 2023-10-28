@@ -21,7 +21,9 @@
     <title>Frontend Mentor | WorkIT landing page</title>
   </head>
   <body class="font-manrope text-lg">
-    <header class="bg-dark-purple flex items-center justify-between py-8 px-4">
+    <header
+      class="bg-dark-purple flex items-center justify-between py-8 px-4 md:px-10"
+    >
       <img src="./assets/images/logo-light.svg" alt="logo" />
       <nav class="text-white">
         <a class="py-1 border-b-2 border-eucalyptus">Apply for access</a>
@@ -31,7 +33,7 @@
       class="bg-dark-purple flex items-center justify-start flex-col text-white text-center relative h-[395px] rounded-bottom-arch shadow-custom"
     >
       <img
-        class="hidden"
+        class="hidden md:block absolute -left-52"
         src="./assets/images/bg-pattern-1.svg"
         alt="green circles background pattern one"
       />
@@ -49,12 +51,12 @@
         </button>
       </section>
       <img
-        class="hidden"
+        class="hidden md:block absolute -right-20 top-36"
         src="./assets/images/bg-pattern-2.svg"
         alt="green circles background pattern two"
       />
       <img
-        class="absolute -bottom-28 left-2 sm:max-w-[470px] lg:max-w-[715px]"
+        class="absolute -bottom-28 md:-bottom-32 left-2 md:left-44 sm:max-w-[470px] lg:max-w-[715px]"
         src="./assets/images/image-hero.webp"
         alt="image of a drawn phone"
       />
@@ -150,7 +152,7 @@
       </div>
     </section>
     <footer
-      class="flex flex-col items-center justify-between w-[120px] h-[120px] mx-auto"
+      class="flex flex-col items-center justify-between w-[120px] h-[120px] mx-auto mb-16"
     >
       <img class="w-24" src="./assets/images/logo-dark.svg" alt="logo" />
       <div class="flex flex-wrap justify-between items-center">
