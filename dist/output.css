@@ -546,6 +546,14 @@ video {
   bottom: -7rem;
 }
 
+.-left-52 {
+  left: -13rem;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
 .left-2 {
   left: 0.5rem;
 }
@@ -554,72 +562,12 @@ video {
   left: 1rem;
 }
 
-.top-56 {
-  top: 14rem;
-}
-
-.-left-4 {
-  left: -1rem;
-}
-
-.-left-8 {
-  left: -2rem;
-}
-
-.-left-16 {
-  left: -4rem;
-}
-
-.-left-28 {
-  left: -7rem;
-}
-
-.-left-44 {
-  left: -11rem;
-}
-
-.-left-52 {
-  left: -13rem;
-}
-
-.-right-2 {
-  right: -0.5rem;
-}
-
-.top-6 {
-  top: 1.5rem;
-}
-
-.-right-8 {
-  right: -2rem;
-}
-
-.-right-12 {
-  right: -3rem;
-}
-
-.-right-16 {
-  right: -4rem;
-}
-
-.-right-20 {
-  right: -5rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-24 {
-  top: 6rem;
-}
-
-.top-32 {
-  top: 8rem;
-}
-
 .top-36 {
   top: 9rem;
+}
+
+.top-56 {
+  top: 14rem;
 }
 
 .mx-auto {
@@ -629,6 +577,10 @@ video {
 
 .-mt-5 {
   margin-top: -1.25rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-6 {
@@ -655,10 +607,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .block {
   display: block;
 }
@@ -675,6 +623,10 @@ video {
   height: 2.75rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-\[120px\] {
   height: 120px;
 }
@@ -689,6 +641,10 @@ video {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-24 {
@@ -715,6 +671,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -737,6 +697,10 @@ video {
 
 .rounded-bottom-arch {
   border-radius:  0 0 100% 50%/0 0 30px 30px;;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .border-2 {
@@ -908,21 +872,58 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:-bottom-32 {
+    bottom: -8rem;
+  }
+
   .md\:left-44 {
     left: 11rem;
   }
 
-  .md\:-bottom-32 {
-    bottom: -8rem;
+  .md\:ml-8 {
+    margin-left: 2rem;
   }
 
   .md\:block {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-12 {
+    height: 3rem;
+  }
+
+  .md\:w-12 {
+    width: 3rem;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 }
 
