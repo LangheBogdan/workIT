@@ -26,14 +26,14 @@
     >
       <img src="./assets/images/logo-light.svg" alt="logo" />
       <nav class="text-white">
-        <a class="py-1 border-b-2 border-eucalyptus">Apply for access</a>
+        <a class="py-1 border-b-2 border-eucalyptus lg:cursor-pointer">Apply for access</a>
       </nav>
     </header>
     <main
-      class="bg-dark-purple flex items-center justify-start flex-col text-white text-center relative h-[395px] rounded-bottom-arch shadow-custom"
+      class="bg-dark-purple flex items-center justify-start flex-col text-white text-center relative lg:min-w-[1440px] h-[395px] md:h-[540px] lg:h-[730px] rounded-bottom-arch shadow-custom"
     >
       <img
-        class="hidden md:block lg:w-[270px] lg:h-[215px] absolute -left-52 lg:-left-14"
+        class="hidden md:block lg:w-[270px] lg:h-[215px] absolute -left-52 lg:-left-16 lg:top-[163px]"
         src="./assets/images/bg-pattern-1.svg"
         alt="green circles background pattern one"
       />
@@ -45,25 +45,31 @@
         <button
           type="button"
           role="button"
-          class="mt-10 py-3 px-6 bg-eucalyptus text-dark-purple font-semibold leading-8 text-xs"
+          class="mt-10 py-3 px-6 bg-eucalyptus text-dark-purple font-semibold leading-8 text-[18px] lg:w-40"
         >
           Learn more
         </button>
       </section>
       <img
-        class="hidden md:block lg:w-[141px] lg:h-[112px] absolute right-0 top-36"
+        class="hidden md:block lg:w-[141px] lg:h-[112px] absolute right-0 top-36 lg:top-[360px]"
         src="./assets/images/bg-pattern-2.svg"
         alt="green circles background pattern two"
       />
       <img
-        class="absolute -bottom-28 md:-bottom-32 left-2 md:left-44 sm:max-w-[470px] lg:max-w-[715px]"
+        class="absolute -bottom-28 md:-bottom-32 left-2 md:left-44 lg:left-[561px] sm:max-w-[470px] lg:max-w-[715px]"
         src="./assets/images/image-hero.webp"
         alt="image of a drawn phone"
       />
     </main>
-    <div class="bg-ghost-white pt-40 px-4 pb-16 -mt-5 rounded-bottom-arch">
-      <aside class="max-w-[940px] lg:mx-auto">
-        <article class="text-center md:flex items-center md:px-24 md:text-left">
+    <div
+      class="bg-ghost-white pt-40 px-4 pb-16 -mt-5 rounded-bottom-arch lg:min-w-[1440px] lg:h-[960px]"
+    >
+      <aside
+        class="lg:w-4/5 lg:mx-auto flex items-stretch justify-between lg:mt-40"
+      >
+        <article
+          class="text-center lg:text-center md:flex items-center md:px-24 md:text-left lg:flex-col lg:px-0"
+        >
           <p
             class="text-dark-purple font-semibold text-xl border-2 border-davys-grey w-11 h-11 mx-auto rounded-full flex items-center justify-center font-fraunces md:p-4"
           >
@@ -71,7 +77,7 @@
           </p>
           <div class="md:ml-8">
             <h2
-              class="mt-6 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
+              class="mt-6 lg:mt-14 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
             >
               Actionable insights
             </h2>
@@ -81,15 +87,17 @@
             </p>
           </div>
         </article>
-        <article class="text-center md:flex items-center md:px-24 md:text-left">
+        <article
+          class="text-center lg:text-center md:flex items-center md:px-24 md:text-left lg:flex-col lg:p-0"
+        >
           <p
-            class="text-dark-purple font-semibold text-xl border-2 border-davys-grey w-11 h-11 mx-auto rounded-full flex items-center justify-center font-fraunces mt-10 md:p-4"
+            class="text-dark-purple font-semibold text-xl border-2 border-davys-grey w-11 h-11 mx-auto rounded-full flex items-center justify-center font-fraunces mt-10 lg:mt-0 md:p-4"
           >
             2
           </p>
           <div class="md:ml-8">
             <h2
-              class="mt-6 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
+              class="mt-6 lg:mt-14 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
             >
               Data-driven decisions
             </h2>
@@ -100,15 +108,17 @@
             </p>
           </div>
         </article>
-        <article class="text-center md:flex items-center md:px-24 md:text-left">
+        <article
+          class="text-center md:flex items-center md:px-24 md:text-left lg:text-center lg:flex-col lg:p-0"
+        >
           <p
-            class="text-dark-purple font-semibold text-xl border-2 border-davys-grey w-11 h-11 mx-auto rounded-full flex items-center justify-center font-fraunces mt-10 md:p-4"
+            class="text-dark-purple font-semibold text-xl border-2 border-davys-grey w-11 h-11 mx-auto rounded-full flex items-center justify-center font-fraunces mt-10 lg:mt-0 md:p-4"
           >
             3
           </p>
           <div class="md:ml-8">
             <h2
-              class="mt-6 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
+              class="mt-6 lg:mt-14 font-fraunces font-semibold text-[28px] text-dark-purple leading-9"
             >
               Always affordable
             </h2>
@@ -147,9 +157,9 @@
       </div>
       <div>
         <img
-          class="hidden md:block md:absolute left-32 bottom-0"
+          class="hidden md:block md:absolute left-32 bottom-0 lg:left-[640px]"
           src="./assets/images/bg-pattern-3.svg"
-          alt="green circles"
+          alt="green circles background pattern 3"
         />
       </div>
     </section>
